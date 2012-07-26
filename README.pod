@@ -3,7 +3,7 @@ use strict;
 
 package RT::Extension::CustomizeContentType;
 
-our $VERSION = "0.01";
+our $VERSION = "0.02";
 use RT::Attachment;
 
 package RT::Attachment;
@@ -14,7 +14,7 @@ my $new = sub {
 
     return $content_type
       unless $self->Filename && $self->Filename =~ /\.(\w+)$/;
-    my $ext = $1;
+    my $ext = lc $1;
 
     my $config = RT->Config->Get('ContentTypes') or return $content_type;
     return $config->{$ext} || $content_type;
