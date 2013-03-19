@@ -3,7 +3,7 @@ use strict;
 
 package RT::Extension::CustomizeContentType;
 
-our $VERSION = "0.03";
+our $VERSION = "0.04";
 use RT::Attachment;
 
 package RT::Attachment;
@@ -46,10 +46,6 @@ __END__
 
 RT::Extension::CustomizeContentType - Customize Attachments' ContentType
 
-=head1 VERSION
-
-Version 0.01
-
 =head1 INSTALLATION
 
 To install this module, run the following commands:
@@ -81,23 +77,23 @@ fix that by L<installing this extension|/INSTALLATION> and using the
 configuration below:
 
     Set(%ContentTypes,
-        '.docm' => 'application/vnd.ms-word.document.macroEnabled.12',
-        '.docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-        '.dotm' => 'application/vnd.ms-word.template.macroEnabled.12',
-        '.dotx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.template',
-        '.potm' => 'application/vnd.ms-powerpoint.template.macroEnabled.12',
-        '.potx' => 'application/vnd.openxmlformats-officedocument.presentationml.template',
-        '.ppam' => 'application/vnd.ms-powerpoint.addin.macroEnabled.12',
-        '.ppsm' => 'application/vnd.ms-powerpoint.slideshow.macroEnabled.12',
-        '.ppsx' => 'application/vnd.openxmlformats-officedocument.presentationml.slideshow',
-        '.pptm' => 'application/vnd.ms-powerpoint.presentation.macroEnabled.12',
-        '.pptx' => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
-        '.xlam' => 'application/vnd.ms-excel.addin.macroEnabled.12',
-        '.xlsb' => 'application/vnd.ms-excel.sheet.binary.macroEnabled.12',
-        '.xlsm' => 'application/vnd.ms-excel.sheet.macroEnabled.12',
-        '.xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-        '.xltm' => 'application/vnd.ms-excel.template.macroEnabled.12',
-        '.xltx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.template',
+        'docm' => 'application/vnd.ms-word.document.macroEnabled.12',
+        'docx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'dotm' => 'application/vnd.ms-word.template.macroEnabled.12',
+        'dotx' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.template',
+        'potm' => 'application/vnd.ms-powerpoint.template.macroEnabled.12',
+        'potx' => 'application/vnd.openxmlformats-officedocument.presentationml.template',
+        'ppam' => 'application/vnd.ms-powerpoint.addin.macroEnabled.12',
+        'ppsm' => 'application/vnd.ms-powerpoint.slideshow.macroEnabled.12',
+        'ppsx' => 'application/vnd.openxmlformats-officedocument.presentationml.slideshow',
+        'pptm' => 'application/vnd.ms-powerpoint.presentation.macroEnabled.12',
+        'pptx' => 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+        'xlam' => 'application/vnd.ms-excel.addin.macroEnabled.12',
+        'xlsb' => 'application/vnd.ms-excel.sheet.binary.macroEnabled.12',
+        'xlsm' => 'application/vnd.ms-excel.sheet.macroEnabled.12',
+        'xlsx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
+        'xltm' => 'application/vnd.ms-excel.template.macroEnabled.12',
+        'xltx' => 'application/vnd.openxmlformats-officedocument.spreadsheetml.template',
     );
 
 Config contributed by Nathan March.
