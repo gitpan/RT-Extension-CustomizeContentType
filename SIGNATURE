@@ -14,10 +14,10 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 4c00101783cb1459c5c5bf1d2d47d8d7fd7eff31 Changes
+SHA1 2363cc601221f51ec69dca0d5eedd0c8b735fd7d Changes
 SHA1 cb044988a51bc6682545dd915a69e41ceb5a6298 MANIFEST
-SHA1 c74f32abb463a022401668d2436606c3663ecb8b META.yml
-SHA1 ea304aabd31ca61443f9bec81ec506949141d851 Makefile.PL
+SHA1 675796a0d3b47a58f479f69a40fb741baab27f3a META.yml
+SHA1 a3cbe41a5be1a03583c1fb4bb8adae1efea1e42c Makefile.PL
 SHA1 4d50d7a7e75fea7d8c1f4bfc22a087360155af12 README
 SHA1 9b5001bfa9cf8607b3b3935284d9253e0391c9f1 inc/Module/Install.pm
 SHA1 cab0e564f9bdf658535f683aa197157e06d0dcea inc/Module/Install/Base.pm
@@ -33,11 +33,11 @@ SHA1 f8b2ae3386f6ba26c33408968a953d450842eade inc/Module/Install/Win32.pm
 SHA1 f302bc703d76299cff243e5b44cecd61aac27b76 inc/Module/Install/WriteAll.pm
 SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
 SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
-SHA1 0b6541962a199490a78f6d152fc42de9b6ab60bf lib/RT/Extension/CustomizeContentType.pm
+SHA1 1c1a8bc574cb5a3c49515ec70ac25b3fc06ff67d lib/RT/Extension/CustomizeContentType.pm
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iEYEARECAAYFAlSQwHMACgkQMflWJZZAbqC7bgCgvpny5r8Tccj9RcSXikQy+OT4
-oJoAnideD3LYdKj7bgTHBIshfzjzcyV8
-=gNOX
+iEYEARECAAYFAlSTUuIACgkQMflWJZZAbqBZSgCaA2O0cNbEKRaXxufisBWTnlbu
+OTUAnjPgdEt9AMVZTA+I0Zlm/dVwWUKN
+=2+Be
 -----END PGP SIGNATURE-----
